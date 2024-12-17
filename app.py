@@ -4,7 +4,6 @@ import sys
 import time
 from datetime import datetime
 from typing import List
-import html
 
 import openpyxl
 from selenium import webdriver
@@ -88,7 +87,7 @@ def iniciar_driver():
 def logar():
     global navegador
     navegador, wait = iniciar_driver()
-    navegador.get("http://177.154.22.66:8281")
+    navegador.get(SITE_DSS)
     time.sleep(5)
     campo_usuario = navegador.find_element(
         "xpath", "/html/body/div/div/div[3]/div[2]/div[1]/div/input"
