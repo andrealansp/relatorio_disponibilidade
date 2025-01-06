@@ -1,0 +1,7 @@
+SITE_DSS = "http://177.154.22.66:8281"
+LOGIN_DAHUA = "integracaopk"
+PASSWORD_DAHUA = "@@S@lmos2304@@"
+EMAIL_ADDRESS = "automacoes@andrealves.eng.br"
+EMAIL_PASSWORD = "3j6v7kY%X^!bdwf4K$7R"
+EMAIL_HOST = "mail.andrealves.eng.br"
+EMAIL_PORT = "465"
